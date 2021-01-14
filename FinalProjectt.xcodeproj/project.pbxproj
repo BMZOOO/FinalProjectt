@@ -11,6 +11,12 @@
 		1F91E8C925AC88D300DD8D5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91E8C825AC88D300DD8D5B /* ContentView.swift */; };
 		1F91E8CB25AC88D700DD8D5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F91E8CA25AC88D700DD8D5B /* Assets.xcassets */; };
 		1F91E8CE25AC88D700DD8D5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F91E8CD25AC88D700DD8D5B /* Preview Assets.xcassets */; };
+		1F91E8D725AC893600DD8D5B /* airlinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91E8D625AC893600DD8D5B /* airlinesView.swift */; };
+		1F91E8DA25AC895400DD8D5B /* Airline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91E8D925AC895400DD8D5B /* Airline.swift */; };
+		1F91E8DD25AC917A00DD8D5B /* AirLinesDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91E8DC25AC917A00DD8D5B /* AirLinesDetailsView.swift */; };
+		1FF3320825B0B62B0049FCFC /* booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF3320725B0B62B0049FCFC /* booking.swift */; };
+		1FF3320E25B0B7BE0049FCFC /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF3320D25B0B7BE0049FCFC /* Settings.swift */; };
+		1FF3321225B0BC6C0049FCFC /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF3321125B0BC6C0049FCFC /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		1F91E8CA25AC88D700DD8D5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F91E8CD25AC88D700DD8D5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1F91E8CF25AC88D700DD8D5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F91E8D625AC893600DD8D5B /* airlinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airlinesView.swift; sourceTree = "<group>"; };
+		1F91E8D925AC895400DD8D5B /* Airline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airline.swift; sourceTree = "<group>"; };
+		1F91E8DC25AC917A00DD8D5B /* AirLinesDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirLinesDetailsView.swift; sourceTree = "<group>"; };
+		1FF3320725B0B62B0049FCFC /* booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = booking.swift; sourceTree = "<group>"; };
+		1FF3320D25B0B7BE0049FCFC /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		1FF3321125B0BC6C0049FCFC /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,12 @@
 			children = (
 				1F91E8C625AC88D300DD8D5B /* FinalProjecttApp.swift */,
 				1F91E8C825AC88D300DD8D5B /* ContentView.swift */,
+				1F91E8D925AC895400DD8D5B /* Airline.swift */,
+				1FF3321125B0BC6C0049FCFC /* TabBar.swift */,
+				1F91E8D625AC893600DD8D5B /* airlinesView.swift */,
+				1F91E8DC25AC917A00DD8D5B /* AirLinesDetailsView.swift */,
+				1FF3320725B0B62B0049FCFC /* booking.swift */,
+				1FF3320D25B0B7BE0049FCFC /* Settings.swift */,
 				1F91E8CA25AC88D700DD8D5B /* Assets.xcassets */,
 				1F91E8CF25AC88D700DD8D5B /* Info.plist */,
 				1F91E8CC25AC88D700DD8D5B /* Preview Content */,
@@ -138,8 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F91E8DA25AC895400DD8D5B /* Airline.swift in Sources */,
+				1F91E8D725AC893600DD8D5B /* airlinesView.swift in Sources */,
+				1FF3320E25B0B7BE0049FCFC /* Settings.swift in Sources */,
+				1FF3321225B0BC6C0049FCFC /* TabBar.swift in Sources */,
 				1F91E8C925AC88D300DD8D5B /* ContentView.swift in Sources */,
+				1F91E8DD25AC917A00DD8D5B /* AirLinesDetailsView.swift in Sources */,
 				1F91E8C725AC88D300DD8D5B /* FinalProjecttApp.swift in Sources */,
+				1FF3320825B0B62B0049FCFC /* booking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
