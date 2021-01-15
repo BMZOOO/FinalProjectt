@@ -28,7 +28,7 @@ struct booking: View {
                 
 
                     
-                    Text("These are the most famous airline booking websites choose the sytable website")
+                    Text("These are the most famous airline booking websites choose the suitable website")
                         .bold()
                         .foregroundColor(Color.white)
                         .font(.system(size: 20, weight: .bold, design: .rounded))

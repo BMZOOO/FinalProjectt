@@ -71,7 +71,7 @@ struct airlinesView: View {
          VStack{
             
             
-         Text(" From here you can choose the wannted airline an see if it matches your desire or not.")
+         Text(" From here you can choose the wannted airline and see if it matches your desire or not.")
             
             .bold()
             .foregroundColor(Color.white)
